@@ -1,0 +1,215 @@
+.Modal {
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+
+  .content {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #fff;
+
+    width: 770px;
+    height: 300px;
+
+    border-radius: 6px;
+
+    border-radius: 6px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+    position: relative;
+
+    padding: 2rem;
+
+    .closeBtn {
+      position: absolute;
+
+      top: 15px;
+      right: 15px;
+
+      font-size: 24px;
+
+      border: none;
+      background: transparent;
+
+      cursor: pointer;
+
+      color: #707070;
+    }
+
+    .modalContent {
+      display: flex;
+
+      gap: 20px;
+
+      width: 100%;
+
+      > img {
+        object-fit: cover;
+
+        margin: 0 2rem;
+      }
+
+      .info {
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: flex-start;
+
+        width: 300px;
+        h2 {
+          font-weight: 400;
+          font-size: 20px;
+
+          line-height: 100%;
+          letter-spacing: 5%;
+
+          color: #3f3f40;
+
+          text-transform: uppercase;
+        }
+
+        .price {
+          font-weight: 600;
+          font-size: 20px;
+
+          line-height: 100%;
+          letter-spacing: 5%;
+
+          margin: 1rem 0;
+
+          color: #3f3f40;
+        }
+
+        .desc {
+          font-weight: 500;
+          font-size: 12px;
+
+          line-height: 150%;
+          letter-spacing: 5%;
+
+          color: #9f9f9f;
+
+          margin-top: 1rem;
+        }
+
+        .detailsLink {
+          font-weight: 600;
+          font-size: 12px;
+
+          line-height: 100%;
+          letter-spacing: 5%;
+
+          color: #3442b5;
+
+          text-decoration: none;
+
+          margin-top: 0.5rem;
+        }
+
+        .actionRow {
+          display: flex;
+
+          justify-content: space-between;
+          align-items: center;
+
+          margin-top: 2rem;
+
+          width: 100%;
+
+          .quantity {
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: center;
+            align-items: center;
+
+            width: 110px;
+            height: 36px;
+
+            border-radius: 4px;
+
+            border: 1px solid #d9d9d9;
+
+            span {
+              font-weight: 500;
+              font-size: 16px;
+
+              line-height: 16px;
+              letter-spacing: 0%;
+
+              color: #271c47;
+            }
+
+            img {
+              cursor: pointer;
+
+              margin: 0 1rem;
+            }
+          }
+
+          .buyBtn {
+            background-color: #f7ca11;
+            color: #271c47;
+
+            width: 175px;
+            height: 36px;
+
+            border-radius: 6px;
+            border: none;
+
+            font-weight: 700;
+            font-size: 14px;
+
+            line-height: 100%;
+            letter-spacing: 0%;
+
+            text-align: center;
+            text-transform: uppercase;
+
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .Modal {
+    .content {
+      display: flex;
+
+      flex-direction: column;
+
+      height: auto;
+
+      width: auto;
+    }
+
+    .modalContent {
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

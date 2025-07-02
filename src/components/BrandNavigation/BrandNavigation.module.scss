@@ -1,0 +1,59 @@
+.BrandNavigation {
+  width: 93vw;
+
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  h1 {
+    font-weight: 700;
+    font-size: 30px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    text-align: center;
+
+    color: #3442b5;
+  }
+
+  article {
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 2rem 0;
+
+    div {
+      background-image: url("../../../public/images/no-bg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+
+      background-color: #fff;
+
+      width: 211px;
+      height: 211px;
+
+      gap: 10px;
+      border-radius: 105.5px;
+
+      padding-top: 87px;
+      padding-right: 47px;
+      padding-bottom: 87px;
+      padding-left: 47px;
+
+      margin: 0.5rem;
+
+      box-shadow: 0px 7px 20px 0px #00000021;
+
+      cursor: pointer;
+    }
+  }
+}

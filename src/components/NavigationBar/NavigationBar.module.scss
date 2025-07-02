@@ -1,0 +1,68 @@
+.NavigationBar {
+  border-top: 1px solid #f0f0f0;
+
+  box-shadow: 0px 8px 16px 0px #3930131f;
+
+  ul {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+
+    list-style-type: none;
+
+    li {
+      padding: 0.75rem;
+
+      text-align: center;
+
+      mark {
+        background-color: transparent;
+
+        font-size: 12px;
+        font-weight: 600;
+
+        color: #3019b2;
+      }
+    }
+
+    li {
+      a {
+        display: flex;
+
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: center;
+
+        font-size: 12px;
+        font-weight: 600;
+
+        color: #9f9f9f;
+
+        text-decoration: none;
+      }
+
+      img {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 856px) {
+  .NavigationBar {
+    ul {
+      flex-wrap: wrap;
+      li {
+        width: 130px;
+      }
+
+      li > a {
+        font-size: 11px;
+      }
+    }
+  }
+}
