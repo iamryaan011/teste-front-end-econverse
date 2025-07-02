@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Teste FrontEnd Jr – Econverse
 
 Este projeto foi desenvolvido como parte do processo seletivo para a vaga de FrontEnd Jr da Econverse. O desafio consistiu na construção de uma página de e-commerce com foco  na estruturação de uma página e-commerce, consumo de arquivo .json, modal e tipagem com typescript.
