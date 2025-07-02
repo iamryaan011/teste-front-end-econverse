@@ -53,7 +53,7 @@ Organização visual compatível com o design proposto
 ```npm run start — executa o projeto compilado```
 
 ## Vercel
-<br />Segue o link do site hostpedado pela vercel: <a href="teste-front-end-econverse.vercel.app">Econverse</a>
+<br />Segue o link do site hostpedado pela vercel: <a href="teste-front-end-econvers.vercel.app">Econverse</a>
 
 ## ✉️ Contato
 <br />O link deste repositório foi enviado para os seguintes e-mails conforme solicitado:
