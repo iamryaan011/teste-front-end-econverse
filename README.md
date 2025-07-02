@@ -22,16 +22,16 @@ Este projeto foi desenvolvido como parte do processo seletivo para a vaga de Fro
 
 ```cd teste-econverse```
 
-2. Instale as dependências
-```npm install```
+### 2. Instale as dependências
+<br />```npm install```
 
-4. Inicie o servidor de desenvolvimento
+### 3. Inicie o servidor de desenvolvimento
 
-```npm run dev```
+<br />```npm run dev```
 
 O projeto estará disponível em http://localhost:3000.
 
-✅ Funcionalidades Entregues
+## ✅ Funcionalidades Entregues
 <br />Layout responsivo
 
 Vitrine de produtos dinâmicos
@@ -44,23 +44,23 @@ Estruturação de código por componentes reutilizáveis
 
 Organização visual compatível com o design proposto
 
-🧪 Como Testar
+## 🧪 Como Testar
 <br />O projeto foi testado manualmente em navegadores modernos (Chrome e Firefox) e dispositivos móveis.
 Por ser um desafio de front-end com dados mockados, não há testes automatizados incluídos.
 
-📦 Scripts disponíveis<br />
+## 📦 Scripts disponíveis<br />
 ```npm run dev — inicia o projeto em modo de desenvolvimento```
 
 ```npm run build — compila o projeto para produção```
 
 ```npm run start — executa o projeto compilado```
 
-📝 Sobre o Versionamento
+## 📝 Sobre o Versionamento
 <br />O projeto foi desenvolvido antes da criação do repositório no GitHub.
 Portanto, os commits foram organizados posteriormente para simular uma linha do tempo coerente com o desenvolvimento.
 Essa decisão foi tomada para refletir uma estrutura de versionamento mais clara e alinhada com boas práticas.
 
-✉️ Contato
+## ✉️ Contato
 <br />O link deste repositório foi enviado para os seguintes e-mails conforme solicitado:
 
 ana.nascimento@econverse.com.br
@@ -72,4 +72,4 @@ eduardo.rodrigues@econverse.com.br
 Assunto do e-mail: Teste Vaga FrontEnd Jr
 
 Desenvolvido por: Ryan Lima
-GitHub: https://github.com/iamryaan011
+<br />GitHub: https://github.com/iamryaan011
