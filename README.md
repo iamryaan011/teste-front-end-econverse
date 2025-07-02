@@ -6,56 +6,58 @@ Este projeto foi desenvolvido como parte do processo seletivo para a vaga de Fro
 
 ## 🛠 Tecnologias Utilizadas
 
-- React.js
-- Next.js
-- TypeScript
-- SCSS (SASS)
-- HTML5 & CSS3
-- Git & GitHub
+- React.js  
+- Next.js  
+- TypeScript  
+- SCSS (SASS)  
+- HTML5 & CSS3  
+- Git & GitHub  
 
 ---
 
 ## 🚀 Como Rodar o Projeto
 
 ### 1. Clone o repositório
-```bash
-git clone https://github.com/seu-usuario/teste-econverse.git
-cd teste-econverse
+```git clone https://github.com/iamryaan011/teste-econverse.git```
+
+```cd teste-econverse```
+
 2. Instale as dependências
-bash
-Copy
-Edit
-npm install
-3. Inicie o servidor de desenvolvimento
-bash
-Copy
-Edit
-npm run dev
+```Copy```
+
+```Edit```
+
+```npm install```
+
+4. Inicie o servidor de desenvolvimento
+
+```npm run dev```
+
 O projeto estará disponível em http://localhost:3000.
 
 ✅ Funcionalidades Entregues
- Layout responsivo
+Layout responsivo
 
- Vitrine de produtos dinâmicos
+Vitrine de produtos dinâmicos
 
- Filtro por categorias/marcas
+Filtro por categorias/marcas
 
- Modal com informações detalhadas do produto
+Modal com informações detalhadas do produto
 
- Estruturação de código por componentes reutilizáveis
+Estruturação de código por componentes reutilizáveis
 
- Organização visual compatível com o design proposto
+Organização visual compatível com o design proposto
 
 🧪 Como Testar
 O projeto foi testado manualmente em navegadores modernos (Chrome e Firefox) e dispositivos móveis.
 Por ser um desafio de front-end com dados mockados, não há testes automatizados incluídos.
 
 📦 Scripts disponíveis
-npm run dev — inicia o projeto em modo de desenvolvimento
+```npm run dev — inicia o projeto em modo de desenvolvimento```
 
-npm run build — compila o projeto para produção
+```npm run build — compila o projeto para produção```
 
-npm run start — executa o projeto compilado
+```npm run start — executa o projeto compilado```
 
 📝 Sobre o Versionamento
 O projeto foi desenvolvido antes da criação do repositório no GitHub.
